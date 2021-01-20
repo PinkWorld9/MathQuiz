@@ -20,11 +20,12 @@ function send() {
     document.getElementById("Output").innerHTML = row
     document.getElementById("Number 1.").value = ""
     document.getElementById("Number 2.").value = ""
-    questionturn = "Player1" 
-    answerturn = "Player2"
 }
+questionturn = "Player1" 
+    answerturn = "Player2"
 function check(){
     getanswer = document.getElementById("inputcheckbox").value
+    console.log(getanswer)
     if (getanswer == answer)
     {
         if (answerturn == "Player1") 
